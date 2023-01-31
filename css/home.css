@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+* {
+    cursor: default;
+}
+
+body {
+    cursor: none;
+    margin: 0;
+    padding: 0;
+    background-color: #313742;
+}
+
+.text {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.buttondiv {
+    margin-left: 100px;
+}
+
+@font-face {
+    font-family: purplesmile;
+    src: url(../fonts/Purple\ Smile.ttf);
+}
+
+.maintext {
+    color: white;
+    font-family: 'purplesmile', sans-serif;
+    font-size: 110px;
+    margin-right: 10px;
+    font-weight: 50;
+}
+
+a {
+    text-decoration: none;
+}
+
+.secondarytext {
+    margin-top: -300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.invite {
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #3858ff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.invite:hover {
+    transition: 1s ease-in-out;
+    background: #3858ff;
+}
+
+.invite:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.invite span {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.dashboard {
+    margin-left: 10px;
+}
+
+.dashboard {
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #3858ff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #7f8bc7;
+    border-radius: 9px;
+    background-color: #292e39;
+}
+
+.dashboard span {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.invitebot {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+.invitebot::after {
+    content: '';
+    background: #3858ff;
+    width: 210px;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dashboard:hover {
+    animation-name: dashboard;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    transition: 10s;
+    animation-duration: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 0.1s;
+}
+
+.dashboard:hover:after {
+    border: 1px solid #7f8bc7;
+    transition: 5s;
+}
+
+.invitetracie {
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #3858ff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 50px;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.invitetracie:hover {
+    transition: 1s ease-in-out;
+    background: #3858ff;
+}
+
+.invitetracie:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.invitetracie span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+@keyframes dashboard {
+    0% {
+        border: 1px solid #3858ff;
+        color: white;
+    }
+    20% {
+        border: 1px solid rgb(35, 35, 243)8ff;
+        color: white;
+    }
+    40% {
+        border: 1px solid rgb(54, 54, 213)8ff;
+        color: white;
+    }
+    60% {
+        border: 1px solid rgb(37, 37, 149)8ff;
+        color: white;
+    }
+    80% {
+        border: 1px solid rgb(114, 114, 227)8ff;
+        color: white;
+    }
+    100% {
+        border: 1px solid #3858ff;
+        color: white;
+    }
+}
+
+nav {
+    background: #292e39;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+}
+
+label.logo {
+    color: white;
+    font-size: 43px;
+    line-height: 80px;
+    font-family: 'purplesmile', sans-serif;
+    font-weight: 50;
+    letter-spacing: 5px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    margin-top: -13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active {
+    border: 1px solid #3858ff;
+    border-radius: 10px;
+}
+
+a.active,
+a:hover {
+    background: #313742;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 90px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.features {
+    background: #292e39;
+    margin-top: 300px;
+    padding-bottom: 100px;
+}
+
+.features h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 5px;
+}
+
+.service h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.service p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.service i {
+    color: #3858ff;
+    margin-bottom: 10px;
+}
+
+.service {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.service i {
+    font-size: 30px;
+}
+
+.featurestext {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+.buttontraciediv {
+    text-align: center;
+}
+
+.commandplaceholder h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.footer {
+    padding: 40px 0;
+    margin-top: 70px;
+    margin-bottom: -100px;
+    background-color: #313742;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover {
+    background: none;
+    color: #0082e6;
+    border: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.buttontraciediv {
+    padding-left: 45px;
+}
+
+img {
+    max-width: 100%;
+    margin-left: 1000px;
+    margin-top: -450px;
+    display: block;
+    height: 650px;
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    @media (max-width: 952px) {
+        label.logo {
+            font-size: 30px;
+            padding-left: 50px;
+        }
+        nav ul li a {
+            font-size: 16px;
+        }
+        .text {
+            margin-left: 50px;
+            text-align: center;
+        }
+        .maintext {
+            color: white;
+            font-family: 'purplesmile', sans-serif;
+            font-size: 70px;
+            font-weight: 50;
+        }
+        .secondarytext {
+            color: white;
+            margin-top: -30px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px
+        }
+        .buttondiv {
+            margin-left: 260px;
+        }
+        .buttontraciediv {
+            padding-left: 45px;
+        }
+        img {
+            display: none;
+        }
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #292e39;
+        top: 65px;
+        left: -1000px;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+        border: none;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
