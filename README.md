@@ -11,6 +11,9 @@ The site itself is not close at being finished. I still have a lot to finish lik
 
 But I love working on the project, however if no one will use it I'll just mark is as discontinued. By starring this project I know you guys love it and want me to keep on working on it!
 
+## UPDATES!
+Version 1
+- Added a template of a dashboard I'm working on. It is not responsive yet.
 
 
 ## Features
@@ -20,7 +23,6 @@ But I love working on the project, however if no one will use it I'll just mark 
 - 24/7 Support.
 - Open source.
 - Dashboard included.
-
 
 ## FAQ
 
