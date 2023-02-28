@@ -13,6 +13,7 @@ body {
 .text {
     margin-top: 250px;
     margin-left: 100px;
+    display: block;
 }
 
 .buttondiv {
@@ -37,7 +38,7 @@ a {
 }
 
 .secondarytext {
-    margin-top: -300px;
+    margin-top: -190px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px
@@ -388,15 +389,24 @@ a:hover {
 
 img {
     max-width: 100%;
-    margin-left: 1000px;
-    margin-top: -450px;
+    margin-left: 1400px;
+    margin-top: -250px;
     display: block;
-    height: 650px;
+    height: 350px;
+    width: 350px;
+    border-radius: 60px;
+}
+
+.hero {
+    padding-bottom: 250px;
 }
 
 @media (max-width: 858px) {
     .checkbtn {
         display: block;
+    }
+    .invite {
+        margin-left: -110px;
     }
     @media (max-width: 952px) {
         label.logo {
@@ -409,6 +419,9 @@ img {
         .text {
             margin-left: 50px;
             text-align: center;
+        }
+        .hero {
+            padding: 50px;
         }
         .maintext {
             color: white;
@@ -424,7 +437,7 @@ img {
             font-size: 20px
         }
         .buttondiv {
-            margin-left: 260px;
+            margin-left: 230px;
         }
         .buttontraciediv {
             padding-left: 45px;
