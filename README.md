@@ -43,9 +43,9 @@ A little bit of JavaScript knowledge and HTML, CSS knowledge.
 
 
 ## Authors
-
+- Annabanana#2913
 - [>Azagaria#9999](https://github.com/anastazialol/)
-- bounty#9999
+
 
 
 ## Used by:
