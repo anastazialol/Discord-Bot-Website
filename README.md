@@ -13,6 +13,7 @@ But I love working on the project, however if no one will use it I'll just mark 
 
 ## UPDATES!
 - Added a template of a dashboard I'm working on. It is not responsive yet.
+- Added a spin animation!!! YAYY
 
 
 ## Features
