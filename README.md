@@ -7,7 +7,6 @@ The site itself is not close at being finished. I still have a lot to finish lik
 - Dashboard
 - Custom pages
 - Terms of Service and Privacy Policy pages
-- Loading animation
 
 But I love working on the project, however if no one will use it I'll just mark is as discontinued. By starring this project I know you guys love it and want me to keep on working on it!
 
