@@ -29,13 +29,13 @@ But I love working on the project, however if no one will use it I'll just mark 
 
 Yes! I do not need any credits and you wont be copyright striked for using any of my projects.
 
-#### Can I change color schemes, and add more pages?
+#### Can I change color schemes and add more pages?
 
 Of course.
 
 #### When will you finish the entire site?
 
-I'm not sure, it may take me around 2-3 months.
+I'm not sure, it may take me around 7-11 months.
 
 
 ## 🛠 Skills you may need in the future...
